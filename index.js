@@ -4,9 +4,12 @@ const axios = require("axios");
 
 const PORT = process.env.PORT || 8000;
 const app = express();
+const cors = require('cors')
+app.use(cors())
+
 const url = "https://www.theguardian.com/uk";
 
-app.get("", (req, res) => {
+app.get("/results", (req, res) => {
   const articles = [];
   axios.get(url).then(response => {
     const html = response.data;
