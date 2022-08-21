@@ -1,0 +1,32 @@
+{
+  "name": "web-scrapper",
+  "version": "1.0.0",
+  "description": "Web scrapper for scrapping data from website.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0APOCALYPSE0/web-scrapper.git"
+  },
+  "keywords": [
+    "scrapper",
+    "web",
+    "scrapper",
+    "data"
+  ],
+  "author": "Aakash Giri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0APOCALYPSE0/web-scrapper/issues"
+  },
+  "homepage": "https://github.com/0APOCALYPSE0/web-scrapper#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
